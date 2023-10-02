@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOrskin Beauty</title>
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="Pictures/icon.png">
+</head>
+
+<body>
+
+    <!-- Navigation Bar --> 
+    <nav>
+      <div class="wrapper">
+
+          <div class="navbar">
+              
+              <input id="nav-toggle" type="checkbox"> 
+              <a href="index.html"><img class="logo" src="Pictures/Logo Baru.png" alt="Logo Vorskin"></a>
+              
+                  
+                  <ul class="menu"> 
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="AboutUs.html">ABOUT</a></li>
+                      <li><a href="promo.html">PROMOTION</a></li>
+                      <li><a href="product.html">PRODUCTS</a></li>
+                      <li><a class="nav-active" href="subscribe.html">SUBSCRIBE</a></li>
+                  </ul>
+                  
+                  <label for="nav-toggle" class="icon-burger">
+                      <div class="line"></div>
+                      <div class="line"></div> 
+                      <div class="line"></div> 
+                  </label>
+                  
+              </div>
+          
+      </div>
+  </nav>
+
+    <div class="subscribe-header-container">
+        <div class="subscribe-header-text">
+            VOrskin Subscription
+        </div>
+        <div class="subscribe-body-text">
+            Subscribe Now to Receive Special Benefit
+        </div>
+        <div class="subscribe-button">
+            <a href="#form-section">Subscribe Now</a>
+        </div>
+    </div>
+
+    <div class="subscribe-benefit-container">
+        <div class="benefit-title">Special Benefit for Subscriber</div>
+        <div class="benefit-body-container">
+          <div class="benefit-icon">
+            <ul>
+              <li>
+                <img class="benefit-img" src="pictures/subscribe/benefit-icon4.png" alt="benefit icon">
+                <br>
+                <span class="benefit-text">Free Shipping</span>
+              </li>
+
+              <li>
+                <img class="benefit-img" src="pictures/subscribe/benefit-icon3.png" alt="benefit icon">
+                <br>
+                <span class="benefit-text">Subscriber Cashback</span>
+              </li>
+
+              <li>
+                <img class="benefit-img" src="pictures/subscribe/benefit-icon1.png" alt="benefit icon">
+                <br>
+                <span class="benefit-text">Special Discount</span>
+              </li>
+
+              <li>
+                <img class="benefit-img" src="pictures/subscribe/benefit-icon2.png" alt="benefit icon">
+                <br>
+                <span class="benefit-text">Monthly Gift</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div id="form-section"> </div>
+
+    <div class="subscribe-form-container">
+        <div class="subscribe-form-title">
+            Subscription Form
+        </div>
+
+        <form id="subsForm" method="post" action="">
+          <label class="form-label" for="fullname">Fullname</label>
+          <br>
+          <!-- Tipe input ad "text", "password", "radio", "checkbox", "file", dst -->
+          <!-- Untuk mengoper value diperlukan atribut name -->
+          <input class="table" id="fullname" type="text" name="fullname">
+          <br>
+  
+          <label class="form-label" for="Email">Email Address</label>
+          <br>
+          <input class="table" type="text" name="email" id="email">
+          <br>
+  
+          <label class="form-label" for="phoneNum">Phone Number</label>
+          <br>
+          <input class="table" type="tel" name="phoneNum" id="phoneNum" value="+62">
+          <br>
+  
+          <label class="form-label" for="preference">Preference</label>
+          <br>
+          <input class="form-rb" type="radio" name="preference" id="skinRb" value="Skin">
+          <label for="skinRb">Skin Care</label>
+          
+          <input class="form-rb" type="radio" name="preference" id="bodyRb" value="Body">
+          <label for="bodyRb">Body Care</label>
+          
+          <input class="form-rb" type="radio" name="preference" id="makeRb" value="MakeUp">
+          <label for="makeRb">Make Up</label>
+          
+          <br>
+  
+          <label class="form-rb" for="agreement"><input id="agreementCB" type="checkbox" value="Agree"> I agree to Receive Newsletter</label>
+          <br>
+          
+          <div class="form-error-container">
+            <div class="left-form-error">
+              <p class="form-error" id="errorHeader"></p>
+              <p class="form-error" id="errorMsg"></p>
+            </div>
+            <div class="right-form-error">
+              <button id="submitbtn" type="submit">submit</button>
+            </div>
+          </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-container">
+        <div class="left-foot">
+           <div class="left-head">
+                <a href="index.html"><img class="footer-logo"src="Pictures/Logo Baru.png" alt="Logo Vorskin"></a>
+           </div>
+        </div>
+        <div class="mid-foot">
+          <div class="mid-head">EXPLORE MORE</div>
+          <div class="mid-body">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="AboutUs.html">About</a></li>
+              <li><a href="promo.html">Promotion</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="subscribe.html">Subscribe</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-foot">
+          <div class="right-foot-text">SOCIAL MEDIA</div>
+          <div class="right-foot-social">
+            <ul>
+                <li><a href="https://www.facebook.com/">
+                  <img class="socmed" src="Pictures/promo/icon_FB.png" alt="Facebook">
+                </a></li>
+                <li><a href="https://twitter.com/">
+                  <img class="socmed" src="Pictures/promo/icon_twitter.png" alt="Twitter">
+                </a></li>
+                <li><a href="https://www.instagram.com/">
+                  <img class="socmed" src="Pictures/promo/Icon_Instagram.png" alt="Instagram">
+                </a></li>
+                <li><a href="https://www.youtube.com/">
+                  <img class="socmed" src="Pictures/promo/Icon_youtube.png" alt="Youtube">
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</body>
+
+
+</html>
